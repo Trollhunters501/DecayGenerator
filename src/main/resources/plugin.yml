@@ -1,0 +1,8 @@
+main: cn.wode490390.nukkit.decaygen.DecayGeneratorPlugin
+name: "DecayGenerator"
+description: "This is an easter egg generator ported from 20w14infinite"
+author: "wode490390"
+website: "http://wode490390.cn/"
+version: "${pom.version}"
+api: ["1.0.0"]
+load: STARTUP

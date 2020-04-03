@@ -1,0 +1,4 @@
+# Whether to replace the overworld generator
+overworld: true
+# Whether to replace the nether generator
+nether: true
