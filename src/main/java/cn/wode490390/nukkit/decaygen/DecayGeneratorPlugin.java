@@ -34,11 +34,10 @@ public class DecayGeneratorPlugin extends PluginBase {
         }
 
         if (overworld) {
-            Generator.addGenerator(DecayGenerator.class, "default", Generator.TYPE_INFINITE);
-            Generator.addGenerator(DecayGenerator.class, "normal", Generator.TYPE_INFINITE);
+            Generator.addGenerator(DecayGenerator.class, "overut", Generator.TYPE_INFINITE);
         }
         if (nether) {
-            Generator.addGenerator(DecayNetherGenerator.class, "nether", Generator.TYPE_NETHER);
+            Generator.addGenerator(DecayNetherGenerator.class, "netherut", Generator.TYPE_NETHER);
         }
     }
 
